@@ -145,18 +145,18 @@ export function Footer({ onOpenPortalModal, onOpenTrialModal }: FooterProps) {
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span>Sun: 6:00 AM – 9:00 PM</span>
+                <span>Sun: 8:00 AM – 11:59 AM</span>
               </div>
             </div>
 
             <div className="pt-2 space-y-1">
               <div className="text-white font-semibold flex items-center gap-1.5">
                 <Phone className="w-3.5 h-3.5 text-emerald-400" />
-                <span>+91 98765 43210</span>
+                <a href="tel:+919560140568" className="hover:text-emerald-400 transition">+91 95601 40568</a>
               </div>
               <div className="flex items-center gap-1.5">
                 <Mail className="w-3.5 h-3.5 text-zinc-500" />
-                <span>concierge@a3fitness.in</span>
+                <a href="mailto:Pspradeepsharma752@gmail.com" className="hover:text-emerald-400 transition">Pspradeepsharma752@gmail.com</a>
               </div>
             </div>
           </div>

@@ -127,7 +127,7 @@ export function TrialModal({ isOpen, onClose }: TrialModalProps) {
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98765..."
+                      placeholder="+91 95601..."
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full bg-zinc-900/80 border border-zinc-700 rounded-xl pl-10 pr-4 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
